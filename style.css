@@ -755,9 +755,6 @@ width: 90%;
 		font: 700 14px/3px 'Montserrat', Arial, Helvetica, Sans-serif;
 		padding-bottom: 21px;
 	}
-	.sectionThree__counter{
-
-	}
 	.sectionThree__buttons-conteiner{
     width: 253px;
 		padding-top: 31px;
@@ -904,7 +901,8 @@ height: auto;
   margin-left: 30px;
 	margin-right: 0px;
 }
-.sectionThree__counter,.sectionTree__adress{
+.sectionThree__counter,.sectionTree__adress,
+.sectionThree__other-offers-wrapper{
 	display: none;
 }
 .sectionThree{
@@ -951,9 +949,6 @@ height: auto;
   width: 172px;
 	margin-top: 40px;
   margin-left: 66px;
-}
-.sectionThree__other-offers-wrapper{
-	display: none;
 }
 .sectionThree__other-offers-button{
  margin-top: 14px;
