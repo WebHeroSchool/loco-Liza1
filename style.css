@@ -7,6 +7,7 @@ body{
 	font-family: 'Montserrat', Arial, Helvetica, Sans-serif;
 	max-width: 1440px;
 	min-width: 376px;
+	margin: 0 auto;
 }
 a{
 color: black;
@@ -201,9 +202,9 @@ background: linear-gradient(to left, #fff 68%, #000 32%);
 	width: 42%;
 }
 .sectionTwo__main-info{
-	width: 38%;
-	height: 62%;
-	background: white;
+	width: 487px;
+  height: 556px;
+	background:white;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25);
 }
 .sectionTwo__title{
@@ -223,8 +224,8 @@ background: linear-gradient(to left, #fff 68%, #000 32%);
 	cursor: pointer;
 }
 .sectionTwo__text{
-	width: 28vw;
-	height: 10.5vw;
+	width: 370px;
+	height: 151px;
 	display: flex;
   font: 400 15px/21px 'Montserrat', Arial, Helvetica, Sans-serif;
 	opacity: 0.5;
@@ -663,12 +664,18 @@ width: 90%;
 	.sectionOne__media-conteiner{
 		padding-top: 57px;
 	}
+	.sectionTwo__img-mobile{
+		width: 35%;
+	}
+	.sectionTwo__other-offers-conteiner {
+		display: none;
+	}
 	.sectionTwo__subtitle{
 		padding-bottom: 35px;
 	}
 	.sectionTwo__choose-wrapper {
 		margin-bottom: 11px;
-    padding-top: 69px;
+    padding-top: 30px;
 	}
 	.sectionThree__subtitle {
 		padding-bottom: 15px;
@@ -711,13 +718,16 @@ width: 90%;
 		padding-left: 0px;
     width: 29%;
 	}
+	.sectionTwo__other-offers-conteiner{
+		display: none;
+	}
 	.sectionTwo__main-info {
 	  margin-right: 35px;
-    height: 71%;
+    max-height: 450px;
 	  width: 47%;
 	}
   .sectionTwo__title{
-		margin-top: 9px;
+		margin-top: 34px;
 		font: 700 23px/28px 'Montserrat', Arial, Helvetica, Sans-serif;
 		padding-left: 37px;
     padding-bottom: 8px;
@@ -732,7 +742,7 @@ width: 90%;
 	  padding-left: 42px;
 	}
 	.sectionTwo__choose-wrapper{
-		margin-top: 88px;
+		margin-top: 0px;
 		padding-left: 44px;
 	  margin-bottom: 23px;
 	}
