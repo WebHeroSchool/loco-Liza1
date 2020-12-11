@@ -296,7 +296,7 @@ background: linear-gradient(to left, #fff 68%, #000 32%);
 }
 .sectionTwo__counter-element{
 	font: 500 15px 'Montserrat', Arial, Helvetica, Sans-serif;
-	transition: opacity .5s easy-out;
+	transition: opacity .5s ease-out;
 }
 .sectionTwo__counter-element:hover,.sectionThree__counter-element:hover{
 	opacity: 0.4;
@@ -308,7 +308,7 @@ background: linear-gradient(to left, #fff 68%, #000 32%);
 	margin-right: 56px;
 	background: white;
   font:500 13px 'Montserrat', Arial, Helvetica, Sans-serif;
-	transition: opacity .5s easy-out;
+	transition: opacity .5s ease-out;
 }
 .sectionTwo__add-button:hover,
 .sectionTwo__other-offers-conteiner:hover{
@@ -376,7 +376,7 @@ background: linear-gradient(to left, #fff 68%, #000 32%);
 	opacity: 0.5;
 	margin-top: 16px;
 	padding-bottom: 34px;
-	transition: opacity .5s easy-out;
+	transition: opacity .5s ease-out;
 }
 .sectionThree__subtitle:hover{
 	opacity: 0.4;
@@ -406,7 +406,7 @@ background: linear-gradient(to left, #fff 68%, #000 32%);
 		width: 163px;
 	border: solid 2px black;
   font:500 13px 'Montserrat', Arial, Helvetica, Sans-serif;
-	transition: opacity .5s easy-out;
+	transition: opacity .5s ease-out;
 }
 .sectionThree__add-button:hover,
 .sectionThree__other-offers-wrapper:hover{
@@ -421,7 +421,7 @@ background: linear-gradient(to left, #fff 68%, #000 32%);
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
-	transition: opacity .5s easy-out;
+	transition: opacity .5s ease-out;
 }
 .sectionThree__arrow {
   padding-right: 10px;
